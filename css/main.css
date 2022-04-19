@@ -1,0 +1,118 @@
+/* estilos generales*/
+
+/* reset css*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EB3333 ;
+    }
+.indexTitulo {
+    text-align: center;
+}
+
+header {
+    background-color: #E8B77E;
+
+}
+
+.mainp {
+    text-align: center;
+    font-size: 18px;
+}
+
+.botonServicios {
+    text-decoration: none;
+    color: black;
+}
+
+.botonRepresentaciones {
+    text-decoration: none;
+    color: black;
+}
+
+.botonNosotros {
+    text-decoration: none;
+    color: black;
+}
+
+.botonContacto {
+    text-decoration: none;
+    color: black;
+}
+
+.imgIndex {
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+.botonPaginap {
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+}
+
+footer h2 {
+    text-align: center;
+    font-size: 13px;
+    background-color: #E8B77E;
+}
+
+
+.headerservi {
+    text-align: center;
+}
+
+.menu li{
+    background-color: #e4717a;
+    padding: 7px 7px;
+    margin: 7px 10px;
+    border: dashed;
+    border-radius: 30px;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+
+
+.imagenService{
+    align-items: center;
+    display: flex;
+}
+
+.parrafo1 {
+    text-align: center;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 13; }
+    .div2 { grid-area: 2 / 1 / 11 / 7; }
+    .div3 { grid-area: 2 / 7 / 11 / 13; }
+    .div4 { grid-area: 11 / 1 / 13 / 13; }
+
+.navbar {
+    background-color: #E8B77E;
+    
+}    
